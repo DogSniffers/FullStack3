@@ -3,12 +3,12 @@ import Header from './components/Header'
 import routes from './routes'
 import './App.css';
 
-
 class App extends React.Component {
-  render(){
-    return(
+
+  render() {
+    return (
       <div>
-        <Header/>
+        <Header />
         {routes}
       </div>
     )
